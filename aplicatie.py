@@ -26,9 +26,9 @@ turbine_data = {
 
 st.title("💨 Comparative Energy Output Analysis – 30 MW Wind Farm")
 
-st.markdown(" 🎯 Purpose of this application:
+st.markdown(""" 🎯 Purpose of this application:
 This tool compares the annual energy output of three wind farm configurations, each totaling 30 MW, using only one turbine type:
-")
+
 - 12 × Nordex N100 (2.5 MW)  
 - 10 × Vestas V90 (3 MW)  
 - 6 × Repower M5 (5 MW)  
@@ -37,7 +37,7 @@ Each turbine uses wind speed data measured at its own hub height:
 - 75 m for Nordex N100  
 - 90 m for Vestas V90  
 - 100 m for Repower M5
-")
+""")
 
 
 
