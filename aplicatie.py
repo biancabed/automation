@@ -146,7 +146,7 @@ if 'pred_nordex' in locals() and 'pred_vestas' in locals() and 'pred_repower' in
     ai_results = {
         "Nordex N100": pred_nordex,
         "Vestas V90": pred_vestas,
-        "Repower M5": pred_repower
+        "Repower M5": pred_repower,
     }
 
     comparison_data = []
