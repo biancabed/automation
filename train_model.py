@@ -15,11 +15,11 @@ df_excel = pd.read_excel("formule_turbine.xlsx", sheet_name=None)
 # Train a separate model for each turbine
 for turbine, info in turbines.items():
     sheet = df_excel[info["sheet"]]
-    X = sheet[["viteza"]]
+    x = sheet[["viteza"]]
     y = sheet["energie"]
 
     model = RandomForestRegressor()
-    model.fit(X, y)
+    model.fit(x, y)
 
     # Save the trained model to a .pkl file
     with open(info["model"], "wb") as f:
