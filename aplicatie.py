@@ -37,7 +37,7 @@ Each turbine uses wind speed data measured at its own hub height:
 - 75 m for Nordex N100  
 - 90 m for Vestas V90  
 - 100 m for Repower M5
-""")
+")
 
 
 
