@@ -90,7 +90,7 @@ uploaded_file = st.file_uploader("Upload wind speed Excel file", type=["xlsx"])
 
 if uploaded_file is not None:
     try:
-        df = pd.read_excel(uploaded_file, sheet_name="Date")
+        df = pd.read_excel(uploaded_file)
 
         # Check required columns
         required_cols = ["v75", "v90", "v100"]
